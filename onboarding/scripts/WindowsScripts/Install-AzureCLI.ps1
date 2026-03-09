@@ -5,7 +5,7 @@
 .DESCRIPTION
   - Checks if `az` is available in PATH
   - If missing:
-      1) Tries WinGet (preferred, silent)0
+      1) Tries WinGet (preferred, silent)
       2) Falls back to MSI installer via PowerShell
   - Verifies installation at the end
 
