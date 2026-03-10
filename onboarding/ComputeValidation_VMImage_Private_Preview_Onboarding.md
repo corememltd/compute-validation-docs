@@ -351,7 +351,7 @@ az deployment sub create   --name computevalidation-onboarding   --location <loc
 
 ## 13. Quota and Resource Prerequisites
 
-Compute Validation provisions Azure resources **in the customer’s subscription** to execute validation workloads.  
+Compute Validation provisions Azure resources **in the customer's subscription** to execute validation workloads.  
 Sufficient **compute, storage, and regional quota** must be available prior to triggering a validation run.
 
 ### BasicVMValidation
