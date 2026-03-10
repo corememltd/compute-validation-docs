@@ -375,10 +375,6 @@ During execution, Compute Validation creates:
 #### Failure Scenarios
 - Insufficient quota may result in **validation failures during resource provisioning**, before test execution begins.
 
-> **Note**  
-> Compute Validation does **not** request or manage quota increases on behalf of customers.  
-> Customers are responsible for ensuring adequate quota availability before running validations.
-
 ### LinuxQualityValidations (LISA)
 
 `LinuxQualityValidations` executes Linux quality test cases as defined by [**LISA**](https://aka.ms/lisa).
@@ -412,6 +408,10 @@ Publishers may use this as **guidance** when planning quota requirements.
 | Standard DPLSv5 Family | 128 | ARM64 |
 
 For reliable execution, **quota readiness should be validated before triggering any validation runs**.
+
+> **Note**  
+> Compute Validation does **not** request or manage quota increases on behalf of customers.  
+> Customers are responsible for ensuring adequate quota availability before running validations.
 
 ---
 
