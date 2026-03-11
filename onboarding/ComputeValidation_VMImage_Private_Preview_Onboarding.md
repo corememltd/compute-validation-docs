@@ -361,7 +361,7 @@ Sufficient **compute, storage, and regional quota** must be available prior to t
 #### Resources Provisioned
 During execution, Compute Validation creates:
 - A **Virtual Machine**
-  - Default size: `Standard_DS_v2`
+  - Default size: `Standard_DS2_v2`
 - A **Storage Account**
   - Used for test artifacts and intermediate validation data
 
