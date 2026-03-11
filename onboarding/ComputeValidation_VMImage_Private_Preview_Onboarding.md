@@ -383,7 +383,7 @@ Before triggering these validations, customers should ensure that **sufficient r
 
 #### Recommended Quota Guidance
 
-The table below lists **recommended resource availability** for running [**LISA T4 test cases**](https://mslisa.readthedocs.io/en/main/run_test/microsoft_tests.html#test-tier) with a **concurrency of 2**.  
+The table below lists **recommended resource availability** for running [**LISA T4 test cases**](https://mslisa.readthedocs.io/en/latest/run_test/microsoft_tests.html#test-tier) with a **concurrency of 2**.  
 Customers may use this as **guidance** when planning quota requirements.
 
 | Resource SKU Family | Cores Count | Feature / Capability |
