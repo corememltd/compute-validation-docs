@@ -4,7 +4,7 @@
 
 > This documentation covers the **Microsoft.Validate** Azure Resource Manager REST API for the Compute Validation for VM Image service. The API version covered is **`2026-02-01-preview`**.
 >
-> For onboarding, prerequisites, and end-to-end usage guidance, see the [Compute Validation Onboarding Guide](../../onboarding/ComputeValidation_VMImage_Private_Preview_Onboarding.md).
+> For onboarding, prerequisites, and end-to-end usage guidance, see the [Compute Validation Onboarding Guide](../ComputeValidation_VMImage_Private_Preview_Onboarding.md).
 
 ---
 
@@ -134,7 +134,7 @@ Common schemas shared across operations are documented in the [Definitions Refer
 
 ## Related Resources
 
-- [Onboarding Guide](../../onboarding/ComputeValidation_VMImage_Private_Preview_Onboarding.md)
-- [OpenAPI Specification](../../onboarding/api/computevalidation-selfserve.openapi.json)
-- [ARM Template](../../onboarding/scripts/computevalidation.subscription.template.json)
-- [ARM Template Parameters](../../onboarding/scripts/computevalidation.subscription.parameters.json)
+- [Onboarding Guide](../ComputeValidation_VMImage_Private_Preview_Onboarding.md)
+- [OpenAPI Specification](../api/computevalidation-selfserve.openapi.json)
+- [ARM Template](../scripts/computevalidation.subscription.template.json)
+- [ARM Template Parameters](../scripts/computevalidation.subscription.parameters.json)

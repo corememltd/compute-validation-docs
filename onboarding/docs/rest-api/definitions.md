@@ -535,4 +535,4 @@ Status of an individual test run within an ExecutionPlanRun.
 - [CloudValidations](./cloud-validations.md)
 - [ValidationExecutionPlans](./validation-execution-plans.md)
 - [ExecutionPlanRuns](./execution-plan-runs.md)
-- [OpenAPI Specification](../../onboarding/api/computevalidation-selfserve.openapi.json)
+- [OpenAPI Specification](../api/computevalidation-selfserve.openapi.json)
