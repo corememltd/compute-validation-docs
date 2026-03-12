@@ -72,11 +72,11 @@ Owner access is required to enable Defender for Cloud settings for Vulnerability
 
 For windows, you can use poweshell:
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File .\WindowsPreReqScripts\ComputeValidationOnBoardingScript
+powershell.exe -ExecutionPolicy Bypass -File .\WindowsScripts\ComputeValidationOnBoardingScript
 ```
 For other OS, use python:
 ```python
-python3 ./LinuxPrereqScripts/ComputeValidationOnBoardingScript.py  --subscription-id <subscriptionId>
+python3 ./LinuxScripts/ComputeValidationOnBoardingScript.py --subscription-id <subscriptionId>
 ```
 
 Wait until feature state is `Registered`.
@@ -151,7 +151,7 @@ powershell.exe -ExecutionPolicy Bypass -File .\GetResults.ps1
 ```
 For other OS, use python:
 ```python
-python3 ./LinuxPrereqScripts/GetResults.py  \
+python3 ./LinuxScripts/GetResults.py  \
   --subscription-id "subscription" \
   --resource-group "resource-group" \
   --cloud-validation "cloud-validation" \
