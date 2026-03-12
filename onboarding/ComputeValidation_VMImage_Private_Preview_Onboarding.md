@@ -75,11 +75,11 @@ For windows, you can use poweshell:
 powershell.exe -ExecutionPolicy Bypass -File .\WindowsScripts\ComputeValidationOnBoardingScript
 ```
 For other OS, use python:
-```python
-python3 ./LinuxScripts/ComputeValidationOnBoardingScript.py --subscription-id <subscriptionId>
+```shell
+env SUB=<subscriptionId> sh ./LinuxScripts/ComputeValidationOnBoardingScript.sh
 ```
 
-Wait until feature state is `Registered`.
+**N.B.** `SUB` may be left out as it defaults to the value of your active subscription.
 
 #### List of setup the above scripts do
 
