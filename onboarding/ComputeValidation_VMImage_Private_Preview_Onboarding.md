@@ -208,9 +208,13 @@ and is the authoritative reference for:
 ### Swagger File
 
 - **OpenAPI (JSON)**:  
-  [`api/computevalidation.openapi.json`](./api/computevalidation.openapi.json)
+  [`api/computevalidation-selfserve.openapi.json`](./api/computevalidation-selfserve.openapi.json)
+
+- **REST API Reference (human-readable)**:  
+  [`docs/rest-api/index.md`](./docs/rest-api/index.md)
 
 > Customers should rely on the Swagger spec for exact request shapes and API versions.
+> For a human-readable, operation-by-operation reference with examples, see the [REST API Reference](./docs/rest-api/index.md).
 > Documentation examples in this guide are illustrative only.
 
 ### Key Resource Types
