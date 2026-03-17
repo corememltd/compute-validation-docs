@@ -389,8 +389,7 @@ Before triggering these validations, customers should ensure that **sufficient r
 
 The table below lists **recommended resource availability** for running [**LISA T4 test cases**](https://mslisa.readthedocs.io/en/latest/run_test/microsoft_tests.html#test-tier) with a **concurrency of 2**.  
 Customers may use this as **guidance** when planning quota requirements. 
-Note: **Today for LISA tests, region used is westus 2.
-We are working towards ensuring all tests run in same region for ease.**
+> **Note:** LISA tests currently run in the **West US 2 (`westus2`)** region. Work is in progress to consolidate all tests into a single region.
 
 | Resource SKU Family | Cores Count | Feature / Capability |
 |--------------------|-------------|----------------------|
