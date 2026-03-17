@@ -8,9 +8,6 @@
     "resourceGroupName": {
       "value": "OnboardComputeValidation"
     },
-    "executionPlanName": {
-      "value": "validation-ep"
-    },
     "planConfiguration": {
       "value": {
         "certificationPackageReference": {
