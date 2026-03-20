@@ -243,7 +243,7 @@ as part of each validation suite during self‑serve image validation.
 
 ### 9.1 How to pass the testcase list in the request
 
-> **Note:** For the list of available LinuxQualityValidations tests, see [Test Cases — Linux Integration Services Automation (LISA) documentation](https://mslisa.readthedocs.io/en/latest/test_cases.html).
+> **Note:** For the list of available LinuxQualityValidations tests, see [Test Cases — Linux Integration Services Automation (LISA) documentation](https://mslisa.readthedocs.io/en/main/run_test/microsoft_tests.html).
 
 #### Readable test configuration (logical structure)
 
