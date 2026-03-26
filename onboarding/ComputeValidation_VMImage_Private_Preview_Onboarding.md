@@ -147,7 +147,7 @@ Alternatively if you are using a Compute Gallery then:
 The arm template also ask's for a cloudValidationName and ExecutionPlanName. Please enter some unique name like validationcv123 and executionplan123 which you have never used.
 
 ```powershell
-az deployment sub create   --name computevalidation-onboarding   --location <location>   --template-file .\computevalidation.subscription.template.json   --parameters .\computevalidation.subscription.parameters.json
+az deployment sub create   --name computevalidation-onboarding   --location <location>   --template-file .\bicep/main.bicep
 ```
 This will:
 - Create a CloudValidation
@@ -369,7 +369,7 @@ Customers are responsible for reviewing and deleting any orphaned resources, esp
 ## 12. Automation via ARM Template
 
 ```powershell
-az deployment sub create   --name computevalidation-onboarding   --location <location>   --template-file .\computevalidation.subscription.template.json   --parameters .\computevalidation.subscription.parameters.json
+az deployment sub create   --name computevalidation-onboarding   --location <location>   --template-file .\bicep\main.bicep
 ```
 
 ---

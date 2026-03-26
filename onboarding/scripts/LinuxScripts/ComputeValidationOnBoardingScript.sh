@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# Why these steps are not in Bicep:
+# 1. though we can register features[1], we are unable to register providers[2]
+# 2. @onlyIfNotExists() does not work for Microsoft.Authorization/roleDefinitions[3]
+#
+# [1] https://learn.microsoft.com/azure/templates/microsoft.features/featureproviders/subscriptionfeatureregistrations
+# [2] https://github.com/Azure/bicep/issues/3267
+# [3] https://github.com/Azure/bicep/issues/18373
+
 set -eu
 
 : ${SUB:=$(az account show --query id --output tsv)}
