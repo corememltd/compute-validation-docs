@@ -120,6 +120,25 @@ To ensure comprehensive vulnerability validation of your VM images, **enable Mic
 
 Prepare image (VHD SAS URI, ensure minimum 1 day expiry is provided to the VHD, make sure to give read and list access to the VHD).
 
+Alternatively if you are using a Compute Gallery then:
+ 1. Configure VM image version to replicate also to one of the supported regions listed below
+ 1. Once replication completes, create a disk image within that region from it:
+
+        az disk create \
+          --subscription-id 0000000-0000-0000-0000-000000000000 \
+          --resource-group MyResourceGroup \
+          --location Region \
+          --name MyTestDisk \
+          --gallery-image-reference /subscriptions/{subscriptionId}/resourceGroups/myComputeGalleryRG/providers/Microsoft.Compute/galleries/myGallery/images/myImage
+
+ 1. From your newly created disk image you can generate a usable SAS URI from the following:
+
+        az disk grant-access \
+          --subscription-id 0000000-0000-0000-0000-000000000000 \
+          --resource-group MyResourceGroup \
+          --name MyTestDisk \
+          --duration-in-seconds $((48*60*60))
+
 **Step 3: Create Validation Resources and define the tests to run:**
 - Use ARM APIs directly, or
 - Deploy the provided ARM template using the automation command below: the arm paramter file demands AzValidation RP service principle which you captured 4.3 steps. You can also again run the below command to get it 
